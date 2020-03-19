@@ -6,7 +6,11 @@ cur = conn.cursor()
 try:
     sql2 = "SELECT * FROM `account` WHERE `acc`='accC'"
     sql = "SELECT * FROM account WHERE acc = %s"
-    cur.execute(sql2)
+    # sql = "SELECT * FROM customers WHERE address = %s"
+    adr = tuple()  # ("accB", )
+    
+    # mycursor.execute(sql, adr)
+    cur.execute(sql, adr)
     rs = cur.fetchall()
     print(rs)
     print("===================")
