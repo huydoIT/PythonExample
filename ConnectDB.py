@@ -8,11 +8,16 @@ try:
     sql = "SELECT * FROM account WHERE acc = %s"
     # sql = "SELECT * FROM customers WHERE address = %s"
     adr = tuple()  # ("accB", )
-    
+    strA = input("Input acc: ")
     # mycursor.execute(sql, adr)
+    adr += (strA,)
     cur.execute(sql, adr)
     rs = cur.fetchall()
-    print(rs)
+    if not rs:
+        print("Acc do not exits!\n")
+    else:
+        print(rs)
+        print("TEST")
     print("===================")
     for row in rs:
         if row[1] == "accE":
