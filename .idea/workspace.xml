@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7de851c-3f17-4f85-9287-dfa991ed16a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/getData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PythonSocket/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HelloPy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HelloPy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConnectDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConnectDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonSocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonSocket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonSocket/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonSocket/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonSocket/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonSocket/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../PythonSocket" />
   </component>
   <component name="ProjectId" id="1X3R1lzdnzluhXePvGs3QArMA9s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -41,7 +46,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="kite.configurable" />
   </component>
-  <component name="RunManager" selected="Python.getData">
+  <component name="RunManager" selected="Python.connect">
     <configuration name="ConnectDB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HelloPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -55,6 +60,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConnectDB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSocket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonSocket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonSocket/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="connect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSocket" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonSocket" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonSocket/connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,19 +131,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HelloPy" />
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonSocket" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PythonSocket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PythonSocket/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,9 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.connect" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.client" />
         <item itemvalue="Python.getData" />
         <item itemvalue="Python.ConnectDB" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -139,26 +188,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Vim_Emulation/0.0.1366.728@0.0.1366.728" timestamp="1580279736449" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584504330644">
+    <state x="402" y="0" key="#server" timestamp="1584942949816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584504330644" />
-    <state width="460" height="600" key="GridCell.Tab.0.bottom" timestamp="1584941599495">
+    <state x="402" y="0" key="#server/0.0.1366.728@0.0.1366.728" timestamp="1584942949816" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584941942722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="460" height="600" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584941599495" />
-    <state width="460" height="600" key="GridCell.Tab.0.center" timestamp="1584941599495">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584941942722" />
+    <state width="509" height="393" key="GridCell.Tab.0.bottom" timestamp="1584942686129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="460" height="600" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584941599495" />
-    <state width="460" height="600" key="GridCell.Tab.0.left" timestamp="1584941599494">
+    <state width="509" height="393" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584942686129" />
+    <state width="509" height="393" key="GridCell.Tab.0.center" timestamp="1584942686129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="460" height="600" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584941599494" />
-    <state width="460" height="600" key="GridCell.Tab.0.right" timestamp="1584941599495">
+    <state width="509" height="393" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584942686129" />
+    <state width="509" height="393" key="GridCell.Tab.0.left" timestamp="1584942686129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="460" height="600" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584941599495" />
+    <state width="509" height="393" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584942686129" />
+    <state width="509" height="393" key="GridCell.Tab.0.right" timestamp="1584942686129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="509" height="393" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584942686129" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1580279582444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
