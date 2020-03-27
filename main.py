@@ -1,3 +1,5 @@
+
+
 value = [('acc1', 1500), ('acc2', 500), ('acc3', 750)]
 info = dict(value)
 while (True):
